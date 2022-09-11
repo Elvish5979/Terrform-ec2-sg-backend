@@ -31,3 +31,8 @@ variable "table_name" {
   type    = string
   default = "terraform-backend"
 }
+
+variable "instnace_profile" {
+  type = string
+  default = "myrole"
+}
